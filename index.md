@@ -12,13 +12,13 @@ Protocol 273-4B was developed by a team of interns to establish an individual's 
  3. Promptly transfer the registrar's name "registrar" to the registrar
  4. Promptly transfer your name to the registrar
  5. Receive your 24 byte registration token
- 6. Provide the registration token to the handler
+ 6. Provide the registration token to the handler as a hex encoded string without spaces
 
  The name transfer process is defined in more detail in appendix C
 
  Thanks to the tireless efforts of intern 923761 we now have a graphical representation of protocol 273-4B for beings with ocular capabilities.
 
- ![Literally just lines and arrows describing what I just wrote for poor sighted folk](/images/registrar-protocol.png)
+ ![Literally just lines and arrows describing what I just wrote.  I don't know why this would help anyone but sighted individuals always need their diagrams.](/images/registrar-protocol.png)
 
 ### Protocol 273-4B Appendix C
 
@@ -30,7 +30,7 @@ Protocol 273-4B was developed by a team of interns to establish an individual's 
 For individuals that wish to seek to improve their knowledge of protocol 273-4B we provide challenge questions. Please DM your answers to individual Ximvu to avoid spreading confusion and/or clarification of protocol 273-4B on public channels.
 
  1. The encryption cipher in this task is using a fairly simple encryption mode.  If someone were to capture traffic to this bot then what could they learn about the names of the users?
- 2. There is a pattern to the registration tokens.  Can you figure out what it is?  How could this be exploited? 
+ 2. There is a bit of a pattern to the registration tokens.  Can you figure out what it is?  How does this reduce the entropy of the registration tokens?
 
 ### Hints
 
