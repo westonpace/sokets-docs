@@ -38,7 +38,7 @@ Through the misadventures of several interns it has been brought to our attentio
 
 <details>
 <summary>
-Hint 2 (expected transfer size)
+Hint 1 (expected transfer size)
 </summary>
 Due to the encryption process you may think you need to transfer more than 128 bytes.  You don't.  If you get to a point where you are thinking this then print your bytes encoded as hex and check if you notice anything odd about any of them.
 </details>
