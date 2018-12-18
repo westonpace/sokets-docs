@@ -23,7 +23,7 @@ Protocol 273-4B was developed by a team of interns to establish an individual's 
 ### Protocol 273-4B Appendix C
 
  * All names shall be signed using the advanced encryption standard in electronic codebook mode.
- * All names shall be 128 bytes.  If your name is not 128 bytes it shall be right padded with the UTF character U+0000.  If your name is more than 128 characters or includes the U+0000 character then please follow exception process guillotine.
+ * All names shall be 128 bytes.  If your name is not 128 bytes it shall be right padded with the UTF character U+0000.  If your name is more than 128 bytes or includes the U+0000 character then please follow exception process guillotine.
  
 ### Challenge Questions
 
@@ -37,10 +37,10 @@ For individuals that wish to seek to improve their knowledge of protocol 273-4B 
 Through the misadventures of several interns it has been brought to our attention that hints should be made available to reduce the load on our support staff and avoid another occurrence of something like incident 9713.
 
 <details>
-Hint 2 (expected transfer size)
 <summary>
-Due to the encryption process you may think you need to transfer more than 128 bytes.  You don't.  If you get to a point where you are thinking this then print your bytes encoded as hex and check if you notice anything odd about any of them.
+Hint 2 (expected transfer size)
 </summary>
+Due to the encryption process you may think you need to transfer more than 128 bytes.  You don't.  If you get to a point where you are thinking this then print your bytes encoded as hex and check if you notice anything odd about any of them.
 </details>
 <details>
 <summary>
